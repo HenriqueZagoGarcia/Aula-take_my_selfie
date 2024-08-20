@@ -64,8 +64,8 @@ function takeSelfie()
 
 function save()
 {
-    var link = document.getElementsById("link");
-    var image = document.getElementsById("selfieImage").src ;
+    link = document.getElementById("link");
+    image = document.getElementById("selfieImage").src ;
     link.href = image;
     link.click();
 }
